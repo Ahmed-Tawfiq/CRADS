@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: none;
+    background: rgb(31, 31, 31);
+    font-family: sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+
+
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+.titel {
+    text-align: center;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.titel h2 {
+    font-size: 30px;
+    margin: 8px;
+}
+
+.titel p {
+    font-size: 20px;
+}
+.inputs{
+    text-align: center;
+}
+ input {
+    width: 100%;
+    margin: 5px;
+    height: 40px;
+    padding: 9px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: black;
+    color: #fff;
+}
+button#supmite {
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px;
+    background: yellowgreen;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+}
+
+button#supmite:hover{
+    background: rgb(105, 147, 21);
+    
+}
+
+.inpotPrice input{
+    width: 20%;
+}
+
+#total {
+    background: red;
+    padding: 5px;
+    font-size: 14px;
+    font-family: cursive;
+    border-radius: 6px;
+}
+#total::before{
+    content: "total : ";
+}
+
+.searchBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button#SearchTitel {
+    width: 40%;
+    height: 40px;
+    font-size: 21px;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 8px;
+    background: yellowgreen;
+    cursor: pointer;
+
+}
+button#SearchCatigory {
+    width: 40%;
+    height: 40px;
+    font-size: 21px;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 8px;
+    background: yellowgreen;
+    cursor: pointer;
+}
+button#SearchTitel:hover{
+    background: rgb(105, 147, 21);
+
+}
+
+button#SearchCatigory:hover {
+    background: rgb(105, 147, 21);
+
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+table th{
+    text-transform: uppercase;
+}
+th{
+    font-size: 20px;
+}
+td{
+    padding: 5px;
+    font-size: 20px;
+}
+
+button#update {
+    background: aquamarine;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    background: yellowgreen;
+
+}
+button#delete {
+    background: aquamarine;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    background: yellowgreen;
+
+}
+#tbodye button:hover{
+    background: rgb(105, 147, 21);
+
+}
+div#btnDeleteAll button {
+    font-size: 22px;
+    font-family: auto;
+    width: 100%;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div#btnDeleteAll button:hover{
+    background: rgb(128, 121, 121);
+}
+
+input:focus {
+    transform: scale(1.1);
+    letter-spacing: 4px;
+    transition: all 0.2s;
+    
+}
